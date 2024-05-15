@@ -1,6 +1,7 @@
 import express from "express";
 import { dbConnection } from "./database/dbConnection.js";
-import { config } from "dotenv";
+import {config} from "dotenv";
+// import "dotenv/config";
 import cookieParser from "cookie-parser";
 import cors from "cors";
 import fileUpload from "express-fileupload";
@@ -11,6 +12,7 @@ import appointmentRouter from "./router/appointmentRouter.js";
 
 const app = express();
 config({ path: "./config.env" });
+// require('dotenv').config();
 
 app.use(
   cors({
