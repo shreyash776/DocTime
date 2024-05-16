@@ -84,7 +84,7 @@ export const addNewAdmin = catchAsyncErrors(async (req, res, next) => {
   if (isRegistered) {
     return next(new ErrorHandler("Admin With This Email Already Exists!", 400));
   }
-
+    
   const admin = await User.create({
     firstName,
     lastName,
@@ -102,7 +102,7 @@ export const addNewAdmin = catchAsyncErrors(async (req, res, next) => {
     admin,
   });
 });
-
+ // adding doctor 
 export const addNewDoctor = catchAsyncErrors(async (req, res, next) => {
   if (!req.files || Object.keys(req.files).length === 0) {
     return next(new ErrorHandler("Doctor Avatar Required!", 400));
@@ -155,6 +155,7 @@ export const addNewDoctor = catchAsyncErrors(async (req, res, next) => {
       new ErrorHandler("Failed To Upload Doctor Avatar To Cloudinary", 500)
     );
   }
+  
   const doctor = await User.create({
     firstName,
     lastName,
