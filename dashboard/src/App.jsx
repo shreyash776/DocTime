@@ -20,6 +20,7 @@ const App = () => {
   useEffect(() => {
     const fetchUser = async () => {
       try {
+        //fetching the data
         const response = await axios.get(
           "http://localhost:4000/api/v1/user/admin/me",
           {
@@ -34,7 +35,7 @@ const App = () => {
       }
     };
     fetchUser();
-  }, [isAuthenticated]);
+  }, [isAuthenticated]); 
 
   return (
     <Router>
