@@ -114,6 +114,7 @@ h6 {
   overflow-y: hidden;
 }
 .animated-image {
+  width:60%;
   animation: moveUpDown 1s infinite alternate ease-in-out;
 }
 
