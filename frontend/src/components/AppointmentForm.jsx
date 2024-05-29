@@ -194,7 +194,7 @@ const AppointmentForm = () => {
           />
           <div
             style={{
-              gap: "10px",
+               gap: "10px",
               justifyContent: "flex-end",
               flexDirection: "row",
             }}

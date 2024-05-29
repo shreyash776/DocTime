@@ -6,6 +6,9 @@
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
 }
+.new-color{
+  background-color: #9CB8C7;
+}
 body {
   background: #3939d9f2;
 }

@@ -9,9 +9,9 @@ const Home = () => {
     <>
       <Hero
         title={
-          "Welcome to DocTime | Your Trusted Healthcare Provider"
+          "Welcome to DocTime  Your Trusted Healthcare Provider"
         }
-        imageUrl={"/hero.png"}
+        imageUrl={"/abc.png"}
       />
       <Biography imageUrl={"/about.png"} />
       <Departments />

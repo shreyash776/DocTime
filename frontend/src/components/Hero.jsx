@@ -3,7 +3,7 @@ import React from "react";
 const Hero = ({ title, imageUrl }) => {
   return (
     <>
-      <div className="hero container">
+      <div className="hero container" style={{overflowY:"hidden"}}>
         <div className="banner">
           <h1>{title}</h1>
           <p>
@@ -16,7 +16,7 @@ const Hero = ({ title, imageUrl }) => {
           </p>
         </div>
         <div className="banner">
-          <img src="/departments/hero.png" alt="hero" className="animated-image" />
+          <img src={imageUrl} alt="hero" className="animated-image" />
           <span>
             <img src="/Vector.png" alt="vector" />
           </span>

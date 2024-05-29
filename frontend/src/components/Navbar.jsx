@@ -33,7 +33,7 @@ const Navbar = () => {
     <>
       <nav className={"container"}>
         <div className="logo">
-          <img src="/public/departments/logo.png" alt="logo" className="logo-img" />
+          <img src="/departments/logo.png" alt="logo" className="logo-img" />
         </div>
         <div className={show ? "navLinks showmenu" : "navLinks"}>
           <div className="links">
@@ -52,7 +52,7 @@ const Navbar = () => {
               LOGOUT
             </button>
           ) : (
-            <button className="loginBtn btn" onClick={goToLogin}>
+            <button className="loginBtn btn " onClick={goToLogin}>
               LOGIN
             </button>
           )}

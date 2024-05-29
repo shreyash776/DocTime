@@ -4,10 +4,18 @@
   padding: 0;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 body {
   background: #e5e5e5;
+}
+h1{
+  font-family: 'Playfair Display', sans-serif;
+
+}
+.hero- container
+.new-color{
+  background-color: #9CB8C7;
 }
 .btn {
   padding: 7px 20px;
@@ -196,7 +204,7 @@ h6 {
   border-radius: 8px;
   font-size: 24px;
   margin-bottom: 30px;
-  background: linear-gradient(140deg, #9083d5, #271776ca);
+  background:#58788D; 
 }
 .form-component .wrapper {
   display: flex;
@@ -487,7 +495,11 @@ nav .logoutBtn {
   background: linear-gradient(135deg, black, rgb(49, 49, 49));
 }
 nav .loginBtn {
-  background: linear-gradient(135deg, black, rgb(49, 49, 49));
+ background-color: #58788D;
+ 
+}
+.send-btn{
+  background-color:"#58788D"
 }
 nav .hamburger {
   display: none;
